@@ -81,9 +81,9 @@ h1 a {
 }
 
 .accordion li i.fa-angle-down {
-	right: 18px;
+	right: 22px;
 	left: auto;
-	font-size: 28px;
+	font-size: 30px;
 }
 
 .accordion li.open .link {
