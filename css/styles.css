@@ -44,7 +44,7 @@ header .fold{
 .wrap-1 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #EBEBEB;
     width: 80%;
 	border-radius: 5px;
     /* Center slide text vertically */
@@ -62,7 +62,7 @@ header .fold{
     align-items: center;
 }
 .wrap-1 .swiper-slide img{
-	width: 100%;
+	width: 98%;
 }
 .wrap-1 .swiper-slide:nth-child(2n) {
     width: 80%;
