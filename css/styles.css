@@ -34,7 +34,7 @@ header .fold{
 	height: 0.35rem;
 	margin: 0.05rem 3% 0.05rem 0;
 	background: url(../img/icon-1.png) no-repeat;
-	background-size: cover;
+	background-size: 50%;
 	background-position: center;
 }
 .wrap-1 .swiper-container {
