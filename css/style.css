@@ -46,7 +46,7 @@ h1 a {
  	border-radius: 4px;
  	position: absolute;
  	left: 0;
- 	top: 0.5rem;
+ 	top: 7%;
  	z-index: 10000;
  	display: none;
  }
