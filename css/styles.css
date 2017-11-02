@@ -62,7 +62,7 @@ header .fold{
     align-items: center;
 }
 .wrap-1 .swiper-slide img{
-	height: 100%;
+	width: 100%;
 }
 .wrap-1 .swiper-slide:nth-child(2n) {
     width: 80%;
