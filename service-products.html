@@ -19,8 +19,8 @@
 		<li>
 			<div class="link"></i>服务产品<i class="fa fa-angle-down"></i></div>
 			<ul class="submenu">
-				<li><a href="#jc">精彩资讯</a></li>
-				<li><a href="#ke">客户分享</a></li>
+				<li><a href="#" id="wonder">精彩资讯</a></li>
+				<li><a href="#" id="share">客户分享</a></li>
 				<li><a href="#">产品介绍</a></li>
 			</ul>
 		</li>
@@ -44,7 +44,7 @@
 	</ul>
 	<div class="swiper-container all" style="width: 100%;height: 93%;">
         <div class="swiper-wrapper">
-            <div class="swiper-slide sli" id="jc">
+            <div class="swiper-slide sli">
         		<div class="wrap-1">
         			<div class="title">精彩资讯</div>
 					<div class="swiper-container scrol">
@@ -68,7 +68,7 @@
 			    	<!-- <div class="arrow bounce">↓</div> -->
 			    </div>
             </div>
-            <div class="swiper-slide sli" id="ke">
+            <div class="swiper-slide sli">
             	<div class="wrap-1">
             		<div class="title">客户分享</div>
 					<div class="swiper-container scrol">
@@ -126,10 +126,17 @@
         slidesPerView: 1.2,
         spaceBetween: 10
     });
-    var swiper = new Swiper('.all', {
+    var mySwiper = new Swiper('.all', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
         direction: 'vertical'
     });
+
+	$('#wonder').click(function(){
+		mySwiper.slideTo(0, 1000, false);
+	})
+	$('#share').click(function(){
+		mySwiper.slideTo(1, 1000, false);
+	})
 </script>
 </html>
